@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189E9E1687C7D929B4831AD4 /* Pods_YSAPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB629FBE5BE8292D0B16C32 /* Pods_YSAPTests.framework */; };
+		5BD98D991EDD11D900E1F792 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD98D981EDD11D900E1F792 /* AppDelegate.swift */; };
+		5BD98D9B1EDD11D900E1F792 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD98D9A1EDD11D900E1F792 /* ViewController.swift */; };
+		5BD98D9E1EDD11D900E1F792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD98D9C1EDD11D900E1F792 /* Main.storyboard */; };
+		5BD98DA01EDD11D900E1F792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD98D9F1EDD11D900E1F792 /* Assets.xcassets */; };
+		5BD98DA31EDD11DA00E1F792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD98DA11EDD11DA00E1F792 /* LaunchScreen.storyboard */; };
+		5BD98DAE1EDD11DA00E1F792 /* YSAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD98DAD1EDD11DA00E1F792 /* YSAPTests.swift */; };
+		5BD98DB91EDD11DA00E1F792 /* YSAPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD98DB81EDD11DA00E1F792 /* YSAPUITests.swift */; };
+		98D4061BF7AB7286E1DFBAEB /* Pods_YSAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDC86F493F53AF1BAC879E5 /* Pods_YSAP.framework */; };
+		C6BC81B70D0D038002B6FBEF /* Pods_YSAPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8F4244728D11E7B72F7AD4 /* Pods_YSAPUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BD98DAA1EDD11DA00E1F792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BD98D8D1EDD11D900E1F792 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BD98D941EDD11D900E1F792;
+			remoteInfo = YSAP;
+		};
+		5BD98DB51EDD11DA00E1F792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BD98D8D1EDD11D900E1F792 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BD98D941EDD11D900E1F792;
+			remoteInfo = YSAP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54886B1B6B8DAA2C07E1344E /* Pods-YSAP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSAP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YSAP/Pods-YSAP.debug.xcconfig"; sourceTree = "<group>"; };
+		5682800FC55C27F60E59D1A1 /* Pods-YSAPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSAPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YSAPTests/Pods-YSAPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BD98D951EDD11D900E1F792 /* YSAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD98D981EDD11D900E1F792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BD98D9A1EDD11D900E1F792 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BD98D9D1EDD11D900E1F792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BD98D9F1EDD11D900E1F792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BD98DA21EDD11DA00E1F792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BD98DA41EDD11DA00E1F792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BD98DA91EDD11DA00E1F792 /* YSAPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSAPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD98DAD1EDD11DA00E1F792 /* YSAPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSAPTests.swift; sourceTree = "<group>"; };
+		5BD98DAF1EDD11DA00E1F792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BD98DB41EDD11DA00E1F792 /* YSAPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSAPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD98DB81EDD11DA00E1F792 /* YSAPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSAPUITests.swift; sourceTree = "<group>"; };
+		5BD98DBA1EDD11DA00E1F792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E3C722C3234C280999D9159 /* Pods-YSAPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSAPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YSAPTests/Pods-YSAPTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FB629FBE5BE8292D0B16C32 /* Pods_YSAPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YSAPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC551744AC586327D54BA714 /* Pods-YSAP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSAP.release.xcconfig"; path = "Pods/Target Support Files/Pods-YSAP/Pods-YSAP.release.xcconfig"; sourceTree = "<group>"; };
+		B35785C615939336B320F022 /* Pods-YSAPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSAPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YSAPUITests/Pods-YSAPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B910CBF926ED6654C0C382E8 /* Pods-YSAPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSAPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YSAPUITests/Pods-YSAPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CBDC86F493F53AF1BAC879E5 /* Pods_YSAP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YSAP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8F4244728D11E7B72F7AD4 /* Pods_YSAPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YSAPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BD98D921EDD11D900E1F792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D4061BF7AB7286E1DFBAEB /* Pods_YSAP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD98DA61EDD11DA00E1F792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189E9E1687C7D929B4831AD4 /* Pods_YSAPTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD98DB11EDD11DA00E1F792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BC81B70D0D038002B6FBEF /* Pods_YSAPUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A8835F522E13EB4BEE60B61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBDC86F493F53AF1BAC879E5 /* Pods_YSAP.framework */,
+				9FB629FBE5BE8292D0B16C32 /* Pods_YSAPTests.framework */,
+				CE8F4244728D11E7B72F7AD4 /* Pods_YSAPUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		408B0C3F483A6FEE4DE792DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54886B1B6B8DAA2C07E1344E /* Pods-YSAP.debug.xcconfig */,
+				AC551744AC586327D54BA714 /* Pods-YSAP.release.xcconfig */,
+				5682800FC55C27F60E59D1A1 /* Pods-YSAPTests.debug.xcconfig */,
+				9E3C722C3234C280999D9159 /* Pods-YSAPTests.release.xcconfig */,
+				B35785C615939336B320F022 /* Pods-YSAPUITests.debug.xcconfig */,
+				B910CBF926ED6654C0C382E8 /* Pods-YSAPUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5BD98D8C1EDD11D900E1F792 = {
+			isa = PBXGroup;
+			children = (
+				5BD98D971EDD11D900E1F792 /* YSAP */,
+				5BD98DAC1EDD11DA00E1F792 /* YSAPTests */,
+				5BD98DB71EDD11DA00E1F792 /* YSAPUITests */,
+				5BD98D961EDD11D900E1F792 /* Products */,
+				408B0C3F483A6FEE4DE792DF /* Pods */,
+				2A8835F522E13EB4BEE60B61 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BD98D961EDD11D900E1F792 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BD98D951EDD11D900E1F792 /* YSAP.app */,
+				5BD98DA91EDD11DA00E1F792 /* YSAPTests.xctest */,
+				5BD98DB41EDD11DA00E1F792 /* YSAPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BD98D971EDD11D900E1F792 /* YSAP */ = {
+			isa = PBXGroup;
+			children = (
+				5BD98D981EDD11D900E1F792 /* AppDelegate.swift */,
+				5BD98D9A1EDD11D900E1F792 /* ViewController.swift */,
+				5BD98D9C1EDD11D900E1F792 /* Main.storyboard */,
+				5BD98D9F1EDD11D900E1F792 /* Assets.xcassets */,
+				5BD98DA11EDD11DA00E1F792 /* LaunchScreen.storyboard */,
+				5BD98DA41EDD11DA00E1F792 /* Info.plist */,
+			);
+			path = YSAP;
+			sourceTree = "<group>";
+		};
+		5BD98DAC1EDD11DA00E1F792 /* YSAPTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BD98DAD1EDD11DA00E1F792 /* YSAPTests.swift */,
+				5BD98DAF1EDD11DA00E1F792 /* Info.plist */,
+			);
+			path = YSAPTests;
+			sourceTree = "<group>";
+		};
+		5BD98DB71EDD11DA00E1F792 /* YSAPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BD98DB81EDD11DA00E1F792 /* YSAPUITests.swift */,
+				5BD98DBA1EDD11DA00E1F792 /* Info.plist */,
+			);
+			path = YSAPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BD98D941EDD11D900E1F792 /* YSAP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BD98DBD1EDD11DA00E1F792 /* Build configuration list for PBXNativeTarget "YSAP" */;
+			buildPhases = (
+				E3CAEFF9DD6371ACF3F5265B /* [CP] Check Pods Manifest.lock */,
+				5BD98D911EDD11D900E1F792 /* Sources */,
+				5BD98D921EDD11D900E1F792 /* Frameworks */,
+				5BD98D931EDD11D900E1F792 /* Resources */,
+				C978534603C4FA59375DF0F8 /* [CP] Embed Pods Frameworks */,
+				7CFF083D03CED9116DC70B77 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSAP;
+			productName = YSAP;
+			productReference = 5BD98D951EDD11D900E1F792 /* YSAP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BD98DA81EDD11DA00E1F792 /* YSAPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BD98DC01EDD11DA00E1F792 /* Build configuration list for PBXNativeTarget "YSAPTests" */;
+			buildPhases = (
+				5156611E3AC783F45A39FC6B /* [CP] Check Pods Manifest.lock */,
+				5BD98DA51EDD11DA00E1F792 /* Sources */,
+				5BD98DA61EDD11DA00E1F792 /* Frameworks */,
+				5BD98DA71EDD11DA00E1F792 /* Resources */,
+				05B5DD7FE0EAE06BB1102171 /* [CP] Embed Pods Frameworks */,
+				ED9C4D6648282CA275A60F02 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BD98DAB1EDD11DA00E1F792 /* PBXTargetDependency */,
+			);
+			name = YSAPTests;
+			productName = YSAPTests;
+			productReference = 5BD98DA91EDD11DA00E1F792 /* YSAPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BD98DB31EDD11DA00E1F792 /* YSAPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BD98DC31EDD11DA00E1F792 /* Build configuration list for PBXNativeTarget "YSAPUITests" */;
+			buildPhases = (
+				DA4D9E82C7D47544666A0F8A /* [CP] Check Pods Manifest.lock */,
+				5BD98DB01EDD11DA00E1F792 /* Sources */,
+				5BD98DB11EDD11DA00E1F792 /* Frameworks */,
+				5BD98DB21EDD11DA00E1F792 /* Resources */,
+				A334C3239BE742102C604AAF /* [CP] Embed Pods Frameworks */,
+				A96ACC45D03A1441D2E7FC51 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BD98DB61EDD11DA00E1F792 /* PBXTargetDependency */,
+			);
+			name = YSAPUITests;
+			productName = YSAPUITests;
+			productReference = 5BD98DB41EDD11DA00E1F792 /* YSAPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BD98D8D1EDD11D900E1F792 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Rishi Salwi";
+				TargetAttributes = {
+					5BD98D941EDD11D900E1F792 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 28C5X768QG;
+						ProvisioningStyle = Automatic;
+					};
+					5BD98DA81EDD11DA00E1F792 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 28C5X768QG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5BD98D941EDD11D900E1F792;
+					};
+					5BD98DB31EDD11DA00E1F792 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 28C5X768QG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5BD98D941EDD11D900E1F792;
+					};
+				};
+			};
+			buildConfigurationList = 5BD98D901EDD11D900E1F792 /* Build configuration list for PBXProject "YSAP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BD98D8C1EDD11D900E1F792;
+			productRefGroup = 5BD98D961EDD11D900E1F792 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BD98D941EDD11D900E1F792 /* YSAP */,
+				5BD98DA81EDD11DA00E1F792 /* YSAPTests */,
+				5BD98DB31EDD11DA00E1F792 /* YSAPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BD98D931EDD11D900E1F792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD98DA31EDD11DA00E1F792 /* LaunchScreen.storyboard in Resources */,
+				5BD98DA01EDD11D900E1F792 /* Assets.xcassets in Resources */,
+				5BD98D9E1EDD11D900E1F792 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD98DA71EDD11DA00E1F792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD98DB21EDD11DA00E1F792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05B5DD7FE0EAE06BB1102171 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSAPTests/Pods-YSAPTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5156611E3AC783F45A39FC6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7CFF083D03CED9116DC70B77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSAP/Pods-YSAP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A334C3239BE742102C604AAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSAPUITests/Pods-YSAPUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A96ACC45D03A1441D2E7FC51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSAPUITests/Pods-YSAPUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C978534603C4FA59375DF0F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSAP/Pods-YSAP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA4D9E82C7D47544666A0F8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3CAEFF9DD6371ACF3F5265B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED9C4D6648282CA275A60F02 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSAPTests/Pods-YSAPTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BD98D911EDD11D900E1F792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD98D9B1EDD11D900E1F792 /* ViewController.swift in Sources */,
+				5BD98D991EDD11D900E1F792 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD98DA51EDD11DA00E1F792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD98DAE1EDD11DA00E1F792 /* YSAPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD98DB01EDD11DA00E1F792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD98DB91EDD11DA00E1F792 /* YSAPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BD98DAB1EDD11DA00E1F792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BD98D941EDD11D900E1F792 /* YSAP */;
+			targetProxy = 5BD98DAA1EDD11DA00E1F792 /* PBXContainerItemProxy */;
+		};
+		5BD98DB61EDD11DA00E1F792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BD98D941EDD11D900E1F792 /* YSAP */;
+			targetProxy = 5BD98DB51EDD11DA00E1F792 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BD98D9C1EDD11D900E1F792 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD98D9D1EDD11D900E1F792 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BD98DA11EDD11DA00E1F792 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD98DA21EDD11DA00E1F792 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BD98DBB1EDD11DA00E1F792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BD98DBC1EDD11DA00E1F792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BD98DBE1EDD11DA00E1F792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54886B1B6B8DAA2C07E1344E /* Pods-YSAP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 28C5X768QG;
+				INFOPLIST_FILE = YSAP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RICHIE-SALARY.YSAP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5BD98DBF1EDD11DA00E1F792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC551744AC586327D54BA714 /* Pods-YSAP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 28C5X768QG;
+				INFOPLIST_FILE = YSAP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RICHIE-SALARY.YSAP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5BD98DC11EDD11DA00E1F792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5682800FC55C27F60E59D1A1 /* Pods-YSAPTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 28C5X768QG;
+				INFOPLIST_FILE = YSAPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RICHIE-SALARY.YSAPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSAP.app/YSAP";
+			};
+			name = Debug;
+		};
+		5BD98DC21EDD11DA00E1F792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E3C722C3234C280999D9159 /* Pods-YSAPTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 28C5X768QG;
+				INFOPLIST_FILE = YSAPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RICHIE-SALARY.YSAPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSAP.app/YSAP";
+			};
+			name = Release;
+		};
+		5BD98DC41EDD11DA00E1F792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35785C615939336B320F022 /* Pods-YSAPUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 28C5X768QG;
+				INFOPLIST_FILE = YSAPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RICHIE-SALARY.YSAPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YSAP;
+			};
+			name = Debug;
+		};
+		5BD98DC51EDD11DA00E1F792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B910CBF926ED6654C0C382E8 /* Pods-YSAPUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 28C5X768QG;
+				INFOPLIST_FILE = YSAPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RICHIE-SALARY.YSAPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YSAP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BD98D901EDD11D900E1F792 /* Build configuration list for PBXProject "YSAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD98DBB1EDD11DA00E1F792 /* Debug */,
+				5BD98DBC1EDD11DA00E1F792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BD98DBD1EDD11DA00E1F792 /* Build configuration list for PBXNativeTarget "YSAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD98DBE1EDD11DA00E1F792 /* Debug */,
+				5BD98DBF1EDD11DA00E1F792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BD98DC01EDD11DA00E1F792 /* Build configuration list for PBXNativeTarget "YSAPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD98DC11EDD11DA00E1F792 /* Debug */,
+				5BD98DC21EDD11DA00E1F792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BD98DC31EDD11DA00E1F792 /* Build configuration list for PBXNativeTarget "YSAPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD98DC41EDD11DA00E1F792 /* Debug */,
+				5BD98DC51EDD11DA00E1F792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BD98D8D1EDD11D900E1F792 /* Project object */;
+}

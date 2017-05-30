@@ -1,0 +1,6 @@
+framework module Pods_YSAPTests {
+  umbrella header "Pods-YSAPTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
