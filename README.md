@@ -25,10 +25,19 @@ Takes feedback from
 * a website
 
 <p align="center">
-<img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/schematic.PNG?raw=true" width="30%" height="30%"/><p/> 
+<img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/schematic.PNG?raw=true" width="30%" height="30%"/>
+<p/> 
 <p align="center">Circuit Schematic<p/> 
-<img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/circuit.PNG?raw=true" width="30%" height="30%"/>
-<img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/Phone UI.PNG?raw=true" width="30%" height="30%"/>
-<img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/WebUI.PNG?raw=true" width="30%" height="30%"/>
-  <img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/Final.PNG?raw=true" width="30%" height="30%"/>
-<p/>  
+<p align="center"><img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/circuit.PNG?raw=true" width="30%" height="30%"/>
+<p/> 
+<p align="center">Circuit<p/>
+<p align="center">
+<img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Phone UI/schematic.PNG?raw=true" width="30%" height="30%"/>
+<p/> 
+<p align="center">IPhone App<p/> 
+<p align="center"><img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/WebUI/circuit.PNG?raw=true" width="30%" height="30%"/>
+<p/> 
+<p align="center">Web User Interface<p/>
+<p align="center"><img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Final/circuit.PNG?raw=true" width="30%" height="30%"/>
+<p/> 
+<p align="center">First Prototype<p/>
