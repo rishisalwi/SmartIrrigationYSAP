@@ -37,7 +37,7 @@ Takes feedback from
 <p align="center"><b>IPhone App<p/> <b/>
 <p align="center"><img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/WebUI.PNG?raw=true" width="30%" height="30%"/>
 <p/> 
-<p align="center">Web User Interface<p/>
+<p align="center"><b>Web User Interface<p/><b/>
 <p align="center"><img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/Final.PNG?raw=true" width="30%" height="30%"/>
 <p/> 
-<p align="center">First Prototype<p/>
+<p align="center"><b>First Prototype<p/><b/>
