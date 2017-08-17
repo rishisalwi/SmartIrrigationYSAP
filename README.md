@@ -23,4 +23,4 @@ Takes feedback from
 * a soil moisture sensor
 * a phone app
 * a website
-
+![alt txt](https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/Final.PNG?raw=true)
