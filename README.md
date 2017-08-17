@@ -25,8 +25,8 @@ Takes feedback from
 * a website
 
 <p align="center">
-<img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/schematic.PNG?raw=true" width="30%" height="30%"/>
-Circuit Schematic
+<img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/schematic.PNG?raw=true" width="30%" height="30%"/><p/> 
+<p align="center">Circuit Schematic<p/> 
 <img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/circuit.PNG?raw=true" width="30%" height="30%"/>
 <img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/Phone UI.PNG?raw=true" width="30%" height="30%"/>
 <img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/WebUI.PNG?raw=true" width="30%" height="30%"/>
