@@ -32,7 +32,7 @@ Takes feedback from
 <p/> 
 <p align="center">Circuit<p/>
 <p align="center">
-<img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Picutres/Phone UI.PNG?raw=true" width="30%" height="30%"/>
+<img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/Phone%20UI.PNG?raw=true" width="30%" height="30%"/>
 <p/> 
 <p align="center">IPhone App<p/> 
 <p align="center"><img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/WebUI.PNG?raw=true" width="30%" height="30%"/>
