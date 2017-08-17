@@ -24,3 +24,4 @@ Takes feedback from
 * a phone app
 * a website
 ![alt txt](https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/Final.PNG?raw=true)
+  <img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/Final.PNG?raw=true" width="75%" height="75%"/>
