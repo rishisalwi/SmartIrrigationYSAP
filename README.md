@@ -25,9 +25,9 @@ Takes feedback from
 * a website
 
 <p align="center">
-<img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/schematic.PNG?raw=true" width="75%" height="75%"/>
-<img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/circuit.PNG?raw=true" width="75%" height="75%"/>
+<img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/schematic.PNG?raw=true" width="30%" height="30%"/>
+<img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/circuit.PNG?raw=true" width="30%" height="30%"/>
 <img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/Phone UI.PNG?raw=true" width="30%" height="30%"/>
-<img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/WebUI.PNG?raw=true" width="75%" height="75%"/>
-  <img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/Final.PNG?raw=true" width="75%" height="75%"/>
+<img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/WebUI.PNG?raw=true" width="30%" height="30%"/>
+  <img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/Final.PNG?raw=true" width="30%" height="30%"/>
 <p/>  
