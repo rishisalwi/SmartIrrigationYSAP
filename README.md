@@ -27,7 +27,7 @@ Takes feedback from
 <p align="center">
 <img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/schematic.PNG?raw=true" width="30%" height="30%"/>
 <p/> 
-<p align="center">Circuit Schematic<p/> 
+<p align="center"><h4>Circuit Schematic</h4><p/> 
 <p align="center"><img src ="https://github.com/stressmaniac/SmartIrrigationYSAP/blob/master/Pictures/circuit.PNG?raw=true" width="30%" height="30%"/>
 <p/> 
 <p align="center">Circuit<p/>
