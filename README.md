@@ -11,6 +11,7 @@ Responsible for 1,500 gallons of water waste per month
 Open feedback loop
 #### Smart Sprinkler Systems
 Expensive
+
 Controlled by weather-not localized areas
 ## Features
 Able to water different regions of a yard individually
