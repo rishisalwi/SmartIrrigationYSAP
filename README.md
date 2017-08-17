@@ -15,8 +15,11 @@ Expensive
 Controlled by weather-not localized areas
 ## Features
 Able to water different regions of a yard individually
+
 Can conserve a significant amount of water
+
 Takes feedback from
+
 * a soil moisture sensor
 * a phone app
 * a website
